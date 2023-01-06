@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Facebook">
+  <test name="facebook_signup">
+  <parameter name="Browser" value="chrome"></parameter>
+  <parameter name="UrlAddress" value="https://www.facebook.com"></parameter>
+  
+  
+   <classes>
+   
+   <class name="Facebookwork_TestNG.Facebook_SInginTest"></class>
+   
+   </classes>
+  </test> <!-- facebook_signup -->
+</suite> <!-- Facebook -->

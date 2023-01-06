@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Facebook]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="facebook_signup(failed)">
+    <parameter name="UrlAddress" value="https://www.facebook.com"/>
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="Facebookwork_TestNG.Facebook_SInginTest">
+        <methods>
+          <include name="facebook_signuptest"/>
+          <include name="afterClass"/>
+          <include name="Ibrowsers"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- Facebookwork_TestNG.Facebook_SInginTest -->
+    </classes>
+  </test> <!-- facebook_signup(failed) -->
+</suite> <!-- Failed suite [Facebook] -->

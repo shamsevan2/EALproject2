@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression"  parallel="tests" thread-count="5"    > 
+<listeners>
+
+
+<listener class-name="ListenerPack.iListeners"></listener>
+
+
+</listeners>
+
+
+<test name="EAL_AMAZOn1 Test- edge browser">
+ <parameter name="Browser" value="edge"></parameter>
+ <parameter name="UrlAddress" value="https://www.amazon.com"></parameter>
+ 
+  <classes> 
+     <class name="AmazonTestNG1.Amazon2"></class>
+   </classes>
+</test>
+ 
+ <!-- this is test 2  
+<test name="EAL_AMAZOn1 Test- in chrome Browser">
+ <parameter name="Browser" value="chrome"></parameter>
+ <parameter name="UrlAddress" value="https://www.amazon.com"></parameter>
+ 
+  <classes> 
+     <class name="AmazonTestNG1.Amazon2"></class>
+   </classes>
+</test> -->
+ 
+ 
+ 
+ 
+ 
+</suite>

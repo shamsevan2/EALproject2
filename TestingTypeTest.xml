@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test name="Type Based Test">
+  <groups>   
+   
+  <define name="Friday Tests"></define> 
+   
+  <run>
+     <include name="Friday Tests"></include>
+    
+    
+    </run>  
+  </groups>
+    
+    <classes>
+      <class name="TestingENV.Test4"/>
+    </classes>
+  </test> <!-- Type Based Test -->
+</suite> <!-- Suite -->
