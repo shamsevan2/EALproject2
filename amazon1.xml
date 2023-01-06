@@ -10,7 +10,7 @@
 
 
 <test name="EAL_AMAZOn1 Test- edge browser">
- <parameter name="Browser" value="edge"></parameter>
+ <parameter name="Browser" value="chrome"></parameter>
  <parameter name="UrlAddress" value="https://www.amazon.com"></parameter>
  
   <classes> 
